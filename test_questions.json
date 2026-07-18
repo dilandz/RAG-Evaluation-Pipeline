@@ -1,0 +1,36 @@
+[
+    {
+        "question": "How do I reset my API key?",
+        "expected_answer": "Navigate to Settings > API Keys, click the three-dot menu next to your key, select Regenerate. The old key is immediately invalidated.",
+        "category": "answerable"
+    },
+    {
+        "question": "What encryption does NovaTech use for data at rest?",
+        "expected_answer": "AES-256 with keys managed through AWS KMS with automatic rotation every 90 days.",
+        "category": "answerable"
+    },
+    {
+        "question": "What are the rate limits for the Professional plan?",
+        "expected_answer": "1000 requests per minute.",
+        "category": "answerable"
+    },
+    {
+        "question": "How do I fix a CONN_TIMEOUT error?",
+        "expected_answer": "Check that the source firewall allows inbound connections from NovaTech IP ranges listed in Settings > Network. Verify the hostname and port are correct.",
+        "category": "answerable"
+    },    {
+        "question": "What is NovaTech's annual revenue?",
+        "expected_answer": "UNANSWERABLE - This information is not in the documentation.",
+        "category": "unanswerable"
+    },
+    {
+        "question": "Who is the CEO of NovaTech?",
+        "expected_answer": "UNANSWERABLE - This information is not in the documentation.",
+        "category": "unanswerable"
+    },
+    {
+        "question": "Can NovaTech connect to Oracle databases?",
+        "expected_answer": "UNANSWERABLE - Oracle is not listed in the supported integrations. The docs mention PostgreSQL, MySQL, MongoDB, DynamoDB, Snowflake, BigQuery, and Redshift.",
+        "category": "unanswerable"
+    }
+]
