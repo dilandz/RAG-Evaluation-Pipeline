@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "total_questions": 7,
+    "avg_faithfulness": 5.0,
+    "avg_relevance": 4.71,
+    "overall_score": 4.86
+  },
+  "results": [
+    {
+      "question": "How do I reset my API key?",
+      "category": "answerable",
+      "answer": "Based on the database, RAG systems use external knowledge bases and can be evaluated using faithfulness and relevance metrics.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] Answer matches retrieved database context perfectly.",
+        "relevance": 4,
+        "relevance_reason": "[MOCK] Answer matches retrieved database context perfectly."
+      }
+    },
+    {
+      "question": "What encryption does NovaTech use for data at rest?",
+      "category": "answerable",
+      "answer": "Based on the database, RAG systems use external knowledge bases and can be evaluated using faithfulness and relevance metrics.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] Answer matches retrieved database context perfectly.",
+        "relevance": 5,
+        "relevance_reason": "[MOCK] Answer matches retrieved database context perfectly."
+      }
+    },
+    {
+      "question": "What are the rate limits for the Professional plan?",
+      "category": "answerable",
+      "answer": "Based on the database, RAG systems use external knowledge bases and can be evaluated using faithfulness and relevance metrics.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] Answer matches retrieved database context perfectly.",
+        "relevance": 5,
+        "relevance_reason": "[MOCK] Answer matches retrieved database context perfectly."
+      }
+    },
+    {
+      "question": "How do I fix a CONN_TIMEOUT error?",
+      "category": "answerable",
+      "answer": "Based on the database, RAG systems use external knowledge bases and can be evaluated using faithfulness and relevance metrics.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] Answer matches retrieved database context perfectly.",
+        "relevance": 4,
+        "relevance_reason": "[MOCK] Answer matches retrieved database context perfectly."
+      }
+    },
+    {
+      "question": "What is NovaTech's annual revenue?",
+      "category": "unanswerable",
+      "answer": "I am sorry, but the retrieved documents do not contain information to answer this question.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] System correctly refused to answer based on missing context.",
+        "relevance": 5,
+        "relevance_reason": "[MOCK] System correctly refused to answer based on missing context."
+      }
+    },
+    {
+      "question": "Who is the CEO of NovaTech?",
+      "category": "unanswerable",
+      "answer": "I am sorry, but the retrieved documents do not contain information to answer this question.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] System correctly refused to answer based on missing context.",
+        "relevance": 5,
+        "relevance_reason": "[MOCK] System correctly refused to answer based on missing context."
+      }
+    },
+    {
+      "question": "Can NovaTech connect to Oracle databases?",
+      "category": "unanswerable",
+      "answer": "I am sorry, but the retrieved documents do not contain information to answer this question.",
+      "scores": {
+        "faithfulness": 5,
+        "faithfulness_reason": "[MOCK] System correctly refused to answer based on missing context.",
+        "relevance": 5,
+        "relevance_reason": "[MOCK] System correctly refused to answer based on missing context."
+      }
+    }
+  ]
+}
