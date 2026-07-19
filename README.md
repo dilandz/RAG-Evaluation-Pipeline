@@ -23,8 +23,8 @@ A document Q&A system powered by Gemini and ChromaDB that answers questions from
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd RAG Pipeline
+   git clone [https://github.com/dilandz/RAG-Evaluation-Pipeline.git]
+   cd RAG-Evaluation-Pipeline
    ```
 
 2. Create and activate a virtual environment:
